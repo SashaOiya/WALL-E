@@ -259,7 +259,7 @@ void handleWebSocketMessage(void *arg, uint8_t *data, size_t len) {
 void move(int direction, int speed) {
   if (direction == 11) { // Forward
     motor1.drive(speed);  // Установить скорость для мотора 1
-    motor2.drive(150);  // Установить скорость для мотора 2
+    motor2.drive(130);  // Установить скорость для мотора 2
   }
   else if (direction == 12) { // Forward
     motor1.brake();
